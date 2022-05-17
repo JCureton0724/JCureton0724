@@ -1,0 +1,303 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+	font-weight:normal;
+	font-size:100%;
+	
+}
+
+header{
+	
+	background-size: cover;
+	position: absolute;
+	height: 15px;
+	right: 0;
+	z-index: 2;
+}
+
+.vidhead{
+	height: 600px;
+	overflow: hidden;
+}
+video{
+	width: 100%;
+	
+}
+
+
+/*Navbar*/
+nav{
+	margin-left: 400px;
+	width: 300px;
+	padding-right: 41px;
+	
+}
+	
+nav li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+ul{
+	word-spacing: 20px;
+	text-decoration: none;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 24px;
+	font-family: 'Abril Fatface', cursive;
+	color: white;
+	margin-right: auto;	
+}
+
+.jaid{
+	
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 12px;
+	font-size: 24px;
+	font-family: 'Abril Fatface', cursive;
+	color: white;
+	position:absolute; 
+	z-index: 2;
+}
+
+
+/*Main Section*/
+
+main{
+	
+	height: 384px;
+	width: 724px;
+	margin: auto;
+	margin-top: 50px;	
+}
+
+
+.mespeech{
+	width: 400px;
+	padding-bottom: 50px;
+	padding-left: -360px;
+	font-size: 30px;
+
+}
+
+.graphic{
+	width: 273px;
+	padding-left: -360px;
+	font-size: 25px;
+
+}
+
+
+.container{
+	width: 800px;
+	height: 365px;
+	display: flex;
+	padding-bottom: 19px;
+	font-family: 'Indie Flower', cursive;
+	
+	
+}
+
+.container img {
+	width: 350px;
+	height: 366px;
+	margin-right: auto;
+	padding-left: 78px;
+}
+
+
+.jcimg{
+	margin-left: -20px;
+}
+
+/* About Me */
+
+.about{
+	margin-left: 30px;
+	width: 726px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+
+.about h4{
+	font-family: 'Indie Flower', cursive;
+}
+
+.about p{
+	
+	width: 310px;
+	padding-bottom: 20px;
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+
+}
+
+.aboutp2{
+	padding-top: -150px;
+}
+
+.abouted{
+	font-size: 20px
+}
+
+h2{
+	font-size: 31px;
+	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	color: #8e2a31;	
+	padding-bottom: 14px;
+}
+
+h4{
+	font-size: 25px;
+	font-family: 'Indie Flower', cursive;
+	color: #8e2a31;
+	font-style: bold;
+}
+
+
+h5{
+    font-size: 21px;
+	text-align: left;
+	margin-left: 20px;
+	font-family: 'Abril Fatface', cursive;
+	color: #763f54;	
+	padding-bottom: 14px;	
+}
+
+
+
+
+div li{
+	padding-bottom: 10px;
+	word-spacing: 2px;
+	list-style: none
+}
+
+
+
+
+/*Web Site 2*/
+.porfoliogrid{
+	margin: auto;
+	height: 726px;
+	width: 736px;
+}
+
+.porfoliogrid img {
+
+	line-height: 10px;
+}
+
+#main2{
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: -300px;
+}
+
+
+#image1{
+	margin-bottom: 10px;
+	margin-left: -140px;
+	border: solid
+}
+
+
+#image2{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: -135px;
+	width: 450px;
+}
+
+
+#image3{
+	margin-bottom: 30px;
+	margin-top: 10px;
+	border: solid;
+	margin-left: -143px;
+	text-align: center;
+}
+
+#image4{
+	margin-bottom: 30px;
+	margin-bottom: 30px;
+}
+
+#image5{
+	margin-bottom: 10px;
+}
+
+
+#main3{
+	margin: auto;
+	margin-top: 100px;
+
+}
+
+/*Website 3*/
+
+
+#main3 .column {
+  float: left;
+  margin-right: 20px;
+  width: 220px;
+  height: 206px;
+  text-align: center;
+	
+}
+
+#main3 .left, .right {
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+
+#main3 .middle {
+  width: 50%;
+}
+
+#main3 li{
+	color: #a00a07;
+	font-family: 'EB Garamond', serif;
+}
+
+#main3 img{
+	width: 140px;
+	height: 123px;
+	border:solid;
+	border-radius: 120px;
+}
+
+.forum{
+  float: left;
+  margin-right: 20px;
+  margin-top: 57px;
+  width: 220px;
+  height: 206px;
+  text-align: center
+}
+
+
+input{
+	margin-top: 20px;
+	height: 30px;
+	width: 569px;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+
+
+
+iframe{
+	margin-top: 380px;
+	margin-left: -254px;
+}
